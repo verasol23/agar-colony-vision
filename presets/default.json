@@ -1,0 +1,31 @@
+{
+  "format_version": 1,
+  "detector": {
+    "size": 1024,
+    "dish_shrink": 96.0,
+    "gaussian_sigma": 1.0,
+    "bg_kernel": 121,
+    "l_weight": 1.0,
+    "thr_low": 3.5,
+    "thr_high": 8.0,
+    "multiscale_sigma": 2.0,
+    "opening_radius": 2,
+    "hole_max": 300,
+    "min_area": 8,
+    "max_area": 25000,
+    "ws_smooth": 1.0,
+    "ws_alpha": 1.0,
+    "box_pad": 1,
+    "edge_r_min": 0.9,
+    "edge_r_max": 1.09,
+    "edge_h_low": 20,
+    "edge_h_high": 42,
+    "edge_s_min": 80,
+    "edge_v_low": 140,
+    "edge_v_high": 210,
+    "edge_min_area": 250,
+    "edge_max_area": 6000,
+    "dedup_iou": 0.3,
+    "iou_threshold": 0.5
+  }
+}
