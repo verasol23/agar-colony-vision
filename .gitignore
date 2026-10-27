@@ -1,0 +1,23 @@
+# Python and notebook artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+
+# Generated evaluations, local images, and private datasets
+results/
+dataset/
+data/
+outputs/
+*.log
+*.tmp
+
+# Tool/editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
